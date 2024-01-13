@@ -3,6 +3,9 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import projImg4 from "../assets/img/project-img4.png";
+import projImg5 from "../assets/img/project-img5.png";
+import projImg6 from "../assets/img/project-img6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,18 +15,33 @@ export const Projects = () => {
   const projects = [
     {
       title: "Chess Game",
-      description: "Python engine for chess",
+      description: "Chess game using different libraries of python like pygame and algorithms like min max and beta max pruning.",
       imgUrl: projImg1,
     },
     {
       title: "Amazon Clone",
-      description: "Amazon using react",
+      description: "Used reactJS and its various libraries and firebase in this project to create website similar to amazon.",
       imgUrl: projImg2,
     },
     {
       title: "Chat App",
-      description: "Chat app using chatengine",
+      description: "Can create new chats with different members of chat app , can create and delete groups, add member to those groups and communicate",
       imgUrl: projImg3,
+    },
+    {
+      title: "Vehicle detection and counting",
+      description: "Python engine for counting passing vehicles on road.",
+      imgUrl: projImg4,
+    },
+    {
+      title: "To do List",
+      description: "You can add task , mark task , update task and delete task to do.",
+      imgUrl: projImg5,
+    },
+    {
+      title: "Quiz App",
+      description: "App to create quizes and exam for fixed or all users , user will take exams and check results.",
+      imgUrl: projImg6,
     }
   ];
 
@@ -65,10 +83,11 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p>I am committed to continual growth and learning, keeping abreast of the latest technologies and trends to deliver innovative solutions. I thrive on challenges, relishing the opportunity to devise creative approaches for solving intricate problems.</p>
+                      <p>Collaboration lies at the core of my professional ethos. I believe in cultivating robust relationships with clients and colleagues, fostering an environment of transparent communication. Through close collaboration, we can accomplish remarkable outcomes and breathe life into our ideas.</p>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      <p style={{fontSize : "30px"}}>Thank you for visiting</p>
                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>

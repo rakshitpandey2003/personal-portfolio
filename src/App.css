@@ -323,14 +323,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     line-height: 1.5em;
     margin: 14px 0 75px 0;
 }
-.skill-slider {
-  width: 80%;
-  margin: 0 auto;
-  position: relative;
+.skill-slider .item{
+  width: 100px;
+  margin: 0 30px 0 30px;
 }
-.skill-slider .item img {
-  width: 50%;
-  margin: 0 auto 15px auto;
+.skill-slider .item img{
+  width: 100%;
 }
 .background-image-left {
   top: 28%;
