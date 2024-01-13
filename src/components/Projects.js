@@ -17,31 +17,37 @@ export const Projects = () => {
       title: "Chess Game",
       description: "Chess game using different libraries of python like pygame and algorithms like min max and beta max pruning.",
       imgUrl: projImg1,
+      githubLink:"https://github.com/rakshitpandey2003/artificial-intelligence-chess-min-max-alpha-beta-"
     },
     {
       title: "Amazon Clone",
       description: "Used reactJS and its various libraries and firebase in this project to create website similar to amazon.",
       imgUrl: projImg2,
+      githubLink:"https://github.com/rakshitpandey2003/amazon-clone-web-developmen-react-app-/tree/main/untitled%20folder%203/react-challenge-amazon-clone-master"
     },
     {
       title: "Chat App",
       description: "Can create new chats with different members of chat app , can create and delete groups, add member to those groups and communicate",
       imgUrl: projImg3,
+      githubLink:"https://github.com/rakshitpandey2003/Chat-App"
     },
     {
       title: "Vehicle detection and counting",
       description: "Python engine for counting passing vehicles on road.",
       imgUrl: projImg4,
+      githubLink:"https://github.com/rakshitpandey2003/opencv-read-cars"
     },
     {
       title: "To do List",
       description: "You can add task , mark task , update task and delete task to do.",
       imgUrl: projImg5,
+      githubLink:"https://github.com/rakshitpandey2003/todolist"
     },
     {
       title: "Quiz App",
       description: "App to create quizes and exam for fixed or all users , user will take exams and check results.",
       imgUrl: projImg6,
+      githubLink:"https://github.com/rakshitpandey2003/Quiz-App-REST-API-TS-Mongoose/tree/master"
     }
   ];
 
